@@ -1,5 +1,3 @@
-{% from 'openldap/map.jinja' import openldap with context %}
-
 {% set ldap_uri = salt['pillar.get']('openldap:uri', False) %}
 {% set rootpw = salt['pillar.get']('openldap:rootpw', False) %}
 
