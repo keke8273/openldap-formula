@@ -1,0 +1,7 @@
+dn: dc=nurlendi,dc=com
+changetype: add
+objectclass: dcObject
+objectclass: organization
+o: Nurlendi technology
+dc: nurlendi
+

@@ -1,0 +1,5 @@
+dn: ou=admins,dc=nurlendi,dc=com
+changetype: add
+objectClass: organizationalUnit
+objectClass: top
+ou: admins

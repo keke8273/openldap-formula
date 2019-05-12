@@ -1,0 +1,14 @@
+dn: uid=keliu,ou=mail,dc=nurlendi,dc=com
+changetype: add
+cn: keliu
+gidnumber: 1000
+homedirectory: /home/mail/keliu
+mailacceptinggeneralid: keliu@nurlendi.com
+maildrop: keliu@mail.nurlendi.com
+objectclass: account
+objectclass: posixAccount
+objectclass: postfixUser
+objectclass: top
+uid: keliu
+uidnumber: 1000
+userpassword: {SSHA}iFPMmPxX921vnmcfgOc5o09VmSbZOoLQ

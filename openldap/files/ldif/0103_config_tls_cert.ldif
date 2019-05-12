@@ -1,0 +1,10 @@
+dn: cn=config
+changetype: modify
+add: olcTLSCACertificateFile
+olcTLSCACertificateFile: /etc/letsencrypt/live/ldap.nurlendi.com/fullchain.pem
+-
+add: olcTLSCertificateFile
+olcTLSCertificateFile: /etc/letsencrypt/live/ldap.nurlendi.com/cert.pem
+-
+add: olcTLSCertificateKeyFile
+olcTLSCertificateKeyFile: /etc/letsencrypt/live/ldap.nurlendi.com/privkey.pem

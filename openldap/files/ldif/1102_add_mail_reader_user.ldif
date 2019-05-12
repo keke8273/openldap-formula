@@ -1,0 +1,7 @@
+dn: cn=mailAccountReader,ou=admins,dc=nurlendi,dc=com
+changetype: add
+cn: mailAccountReader
+objectclass: organizationalRole
+objectclass: simpleSecurityObject
+objectclass: top
+userpassword: {SSHA}nIVxhZCnKYcbD9+5CXjg6GJ2GC8Plh4t
